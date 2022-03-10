@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/index.css">
+    </head>
+
+    <body>
+        <main id="requestquotation" class="Quotation SubPage" role="main">
+            <div class="comm_wrap">
+                <div class="flex_btw">
+                    <article class="atc__01">
+                        <section>
+                            <ol class="tab_list flex_nml" id="tab_list">
+                                <li data-id="tab_cont">
+                                    <a href="#" id="tab" data-id="" class="active">가상얼굴<span class="tabOrder">0</span></a>
+                                </li>
+                            </ol>
+                            <div id="option_list">
+                                <div id="tab_cont01" data-id="tab_cont01" class="tab_cont active">
+                                    <div>
+                                        <h3>Ⅰ. 가상얼굴 생성과 사용기간</h3>
+                                        <div class="tab_cont_box">
+                                            <dl class="tab_cont_box__period">
+                                                <dt class="flex_btw items_cnt">
+                                                    <h4>
+                                                        <label for="tab01_QT_period">
+                                                            <b>01</b>
+                                                            가상얼굴 사용기간
+                                                    </h4>
+                                                    <div class="select_cst">
+                                                        <select name="tab01_QT_period" id="tab01_QT_period" class="license_period"></select>
+                                                    </div>
+                                                </dt>
+                                                    
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3>II. 콘텐츠 변환</h3>
+                                        <div class="tab_cont_box">
+                                            <dl class="tab_cont_box__spec">
+                                                <dt>
+                                                    <h4>
+                                                        <b>01</b>
+                                                        콘텐츠 SPEC
+                                                    </h4>
+                                                </dt>
+                                                <dd>
+                                                    <div class="flex_btw">
+                                                        <div class="check_cst">
+                                                            <input
+                                                                type="checkbox"
+                                                                name="tab01_QT_spec"
+                                                                id="tab01_QT_spec_1"
+                                                                class="input_QT_spec">
+                                                            <label for="tab01_QT_spec_1">
+                                                                <strong>광고영상</strong>
+                                                            </label>
+                                                        </div>
+                                                        <div class="check_cst">
+                                                            <input
+                                                                type="checkbox"
+                                                                name="tab01_QT_spec"
+                                                                id="tab01_QT_spec_2"
+                                                                class="input_QT_spec">
+                                                            <label for="tab01_QT_spec_2">
+                                                                <strong>온라인콘텐츠</strong>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                            <dl class="tab_cont_box__detail">
+                                                <dt class="flex_btw items_cnt">
+                                                    <h4>
+                                                        <b>02</b>
+                                                        콘텐츠 세부사항
+                                                    </h4>
+                                                </dt>
+                                                <dd>
+                                                    <p class="cont_explan">콘텐츠의 수량과 세부 옵션을 선택해 주세요.</p>
+                                                    <div id="tab01_QT_spec_1_detail" class="QT_spec_detail">
+                                                        <div class="QT_spec_detail_step1 flex_btw items_base">
+                                                            <label for="tab01_QT_spec_1_amount" class="tit_round">광고영상 수량 선택
+                                                                <small>(최대 30개)</small>
+                                                            </label>
+                                                            <div>
+                                                                <a href="javascript:void(0);" class="QT_spec_amount_dec">
+                                                                    <i class="xi-minus-circle-o"></i>
+                                                                </a>
+                                                                <input
+                                                                    name="tab01_QT_spec_1_amount"
+                                                                    id="tab01_QT_spec_1_amount"
+                                                                    type="number"
+                                                                    class="input_cst_basic"
+                                                                    min="1"
+                                                                    max="30"
+                                                                    value="1"
+                                                                    readonly="readonly">
+                                                                <a href="javascript:void(0)" class="QT_spec_amount_inc">
+                                                                    <i class="xi-plus-circle-o"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <ol id="tab01_QT_spec_1_amount_detail" class="QT_spec_detail_step2">
+                                                            <li id="tab01_QT_spec_1_amount_detail_1" class="flex_btw items_cnt select_cst">
+                                                                <label for="tab01_QT_spec_1_amount_detail_1_select">콘텐츠
+                                                                    <b>1</b>
+                                                                    - 영상재생 시간</label>
+                                                                <select
+                                                                    name="tab01_QT_spec_1_amount_detail_1_select"
+                                                                    id="tab01_QT_spec_1_amount_detail_1_select"
+                                                                    class="tvc_spec_detail"></select>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                    <div id="tab01_QT_spec_2_detail" class="QT_spec_detail">
+                                                        <div class="QT_spec_detail_step1 flex_btw items_base">
+                                                            <label for="tab01_QT_spec_2_amount" class="tit_round">온라인콘텐츠 수량 선택
+                                                                <small>(최대 30개)</small>
+                                                            </label>
+                                                            <div>
+                                                                <a href="javascript:void(0);" class="QT_spec_amount_dec">
+                                                                    <i class="xi-minus-circle-o"></i>
+                                                                </a>
+                                                                <input
+                                                                    name="tab01_QT_spec_2_amount"
+                                                                    id="tab01_QT_spec_2_amount"
+                                                                    type="number"
+                                                                    class="input_cst_basic"
+                                                                    min="1"
+                                                                    max="30"
+                                                                    value="1"
+                                                                    readonly="readonly">
+                                                                <a href="javascript:void(0)" class="QT_spec_amount_inc">
+                                                                    <i class="xi-plus-circle-o"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <ol id="tab01_QT_spec_2_amount_detail" class="QT_spec_detail_step2">
+                                                            <li id="tab01_QT_spec_2_amount_detail_1" class="flex_btw items_cnt select_cst">
+                                                                <label for="tab01_QT_spec_2_amount_detail_1_select">콘텐츠
+                                                                    <b>1</b>
+                                                                    - 영상재생 시간</label>
+                                                                <select
+                                                                    name="tab01_QT_spec_2_amount_detail_1_select"
+                                                                    id="tab01_QT_spec_2_amount_detail_1_select"
+                                                                    class="online_spec_detail"></select>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div class="align_cnt">
+                                        <a
+                                            href="#"
+                                            class="btn btn_cont btn_01 save_button"
+                                            id="saveButton"
+                                            onclick="save_vf_options()">저장 및 가상얼굴 추가</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                    <article class="atc__02">
+                        <section class="sec_total">
+                            <h3>TOTAL<small>선택하신 옵션을 확인해 주세요.</small>
+                            </h3>
+                            <ol class="resultPannel" id="resultPannel"></ol>
+                        </section>
+                        
+                        <section class="sec_title">
+                            <h3>
+                                <label for="project_title">프로젝트명</label>
+                                <small>견적 관리를 위한 프로젝트명을 입력해주세요.</small>
+                            </h3>
+                            <div>
+                                <input type="text" id="project_title" class="input_cst_basic" maxlength="50">
+                            </div>
+                        </section>
+                        <div>
+                            <a href="#" id="send_quotation_info" class="btn btn_02">견적서 받기</a>
+                        </div>
+                    </article>
+                    <script>
+                    </script>
+                </div>
+            </div>
+        </main>
+        <script src="../javascripts/index.js"></script>
+    </body>
+</html>
